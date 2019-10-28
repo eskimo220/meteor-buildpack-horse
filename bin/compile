@@ -70,7 +70,9 @@ fi
 echo "***"
 ls -a ${APP_SOURCE_DIR}
 echo "***"
-pwd
+ls /app
+ls /app/tmp
+ls /app/tmp/buildpacks
 echo "***"
 ls -a ${APP_SOURCE_DIR}/../
 echo "***"
